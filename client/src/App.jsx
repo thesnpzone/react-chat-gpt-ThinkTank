@@ -27,7 +27,7 @@ function App() {
 
   const featchBotResponse = async () => {
 
-    const { data } = await axios.post("http://localhost:4000", { input }, {
+    const { data } = await axios.post("https://react-chat-gpt-thinktank-app.onrender.com", { input }, {
 
       headers: {
 
